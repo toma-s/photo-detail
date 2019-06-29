@@ -2,7 +2,7 @@
 
 Language: Kotlin
 
-Application for 
+Application for viewing the photos and their details
 
 ### Controls
 
