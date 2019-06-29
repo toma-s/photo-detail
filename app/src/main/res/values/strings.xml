@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PhotoDetail</string>
+    <string name="title_photo_detail">Photo Detail</string>
+    <string name="plc_image_descr">Photo image</string>
+    <string name="plc_id_text">Id</string>
+    <string name="plc_content_text">Content</string>
+</resources>

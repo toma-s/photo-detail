@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="top"
+             android:background="@color/colorPrimaryDark" android:padding="20dp">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/plc_image"
+            android:contentDescription="@string/plc_image_descr"
+            tools:srcCompat="@mipmap/ic_launcher"
+            android:adjustViewBounds="true" app:srcCompat="@mipmap/ic_launcher_round"
+            android:cropToPadding="true" android:scaleType="centerCrop"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:id="@+id/plc_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:textAppearance="?attr/textAppearanceListItem" android:text="@string/plc_id_text"
+                android:textColor="@color/colorAccent" android:visibility="invisible"/>
+        <TextView
+                android:id="@+id/plc_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:textAppearance="?attr/textAppearanceListItem" android:text="@string/plc_content_text"
+                android:textColor="@color/colorAccent" android:visibility="invisible"/>
+    </LinearLayout>
+
+</FrameLayout>
